@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A43C50BA1F03D526005CDD58 /* sample.html in Resources */ = {isa = PBXBuildFile; fileRef = A43C50B91F03D526005CDD58 /* sample.html */; };
+		A44151431F02604100DA6A58 /* Point.m in Sources */ = {isa = PBXBuildFile; fileRef = A44151421F02604100DA6A58 /* Point.m */; };
+		A44151451F02AB8100DA6A58 /* factorial.js in Resources */ = {isa = PBXBuildFile; fileRef = A44151441F02AB8100DA6A58 /* factorial.js */; };
+		A44151491F02B96600DA6A58 /* Thing.h in Sources */ = {isa = PBXBuildFile; fileRef = A44151481F02B96600DA6A58 /* Thing.h */; };
 		A4F88B671EFD6BAC00910789 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F88B661EFD6BAC00910789 /* main.m */; };
 		A4F88B6A1EFD6BAC00910789 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F88B691EFD6BAC00910789 /* AppDelegate.m */; };
 		A4F88B6D1EFD6BAC00910789 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F88B6C1EFD6BAC00910789 /* ViewController.m */; };
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A43C50B91F03D526005CDD58 /* sample.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sample.html; sourceTree = "<group>"; };
+		A44151421F02604100DA6A58 /* Point.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Point.m; sourceTree = "<group>"; };
+		A44151441F02AB8100DA6A58 /* factorial.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = factorial.js; sourceTree = "<group>"; };
+		A44151481F02B96600DA6A58 /* Thing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thing.h; sourceTree = "<group>"; };
 		A4F88B621EFD6BAC00910789 /* JavascriptApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JavascriptApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F88B661EFD6BAC00910789 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A4F88B681EFD6BAC00910789 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -103,16 +111,20 @@
 		A4F88B641EFD6BAC00910789 /* JavascriptApp */ = {
 			isa = PBXGroup;
 			children = (
+				A43C50B91F03D526005CDD58 /* sample.html */,
+				A44151481F02B96600DA6A58 /* Thing.h */,
 				A4F88B681EFD6BAC00910789 /* AppDelegate.h */,
 				A4F88B691EFD6BAC00910789 /* AppDelegate.m */,
 				A4F88B6B1EFD6BAC00910789 /* ViewController.h */,
 				A4F88B6C1EFD6BAC00910789 /* ViewController.m */,
+				A44151421F02604100DA6A58 /* Point.m */,
 				A4F88B6E1EFD6BAC00910789 /* Main.storyboard */,
 				A4F88B741EFD6BAC00910789 /* Assets.xcassets */,
 				A4F88B761EFD6BAC00910789 /* LaunchScreen.storyboard */,
 				A4F88B791EFD6BAC00910789 /* Info.plist */,
 				A4F88B711EFD6BAC00910789 /* JavascriptApp.xcdatamodeld */,
 				A4F88B651EFD6BAC00910789 /* Supporting Files */,
+				A44151441F02AB8100DA6A58 /* factorial.js */,
 			);
 			path = JavascriptApp;
 			sourceTree = "<group>";
@@ -251,8 +263,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A44151451F02AB8100DA6A58 /* factorial.js in Resources */,
 				A4F88B781EFD6BAC00910789 /* LaunchScreen.storyboard in Resources */,
 				A4F88B751EFD6BAC00910789 /* Assets.xcassets in Resources */,
+				A43C50BA1F03D526005CDD58 /* sample.html in Resources */,
 				A4F88B701EFD6BAC00910789 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,9 +292,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A44151491F02B96600DA6A58 /* Thing.h in Sources */,
 				A4F88B6D1EFD6BAC00910789 /* ViewController.m in Sources */,
 				A4F88B6A1EFD6BAC00910789 /* AppDelegate.m in Sources */,
 				A4F88B731EFD6BAC00910789 /* JavascriptApp.xcdatamodeld in Sources */,
+				A44151431F02604100DA6A58 /* Point.m in Sources */,
 				A4F88B671EFD6BAC00910789 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -521,6 +537,7 @@
 				A4F88B941EFD6BAC00910789 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4F88B951EFD6BAC00910789 /* Build configuration list for PBXNativeTarget "JavascriptAppTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +546,7 @@
 				A4F88B971EFD6BAC00910789 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4F88B981EFD6BAC00910789 /* Build configuration list for PBXNativeTarget "JavascriptAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +555,7 @@
 				A4F88B9A1EFD6BAC00910789 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
